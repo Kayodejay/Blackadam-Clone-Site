@@ -375,6 +375,10 @@ footer .footer-grid nav ul li a{
           flex-direction: column;
      }
 
+     .languages .language-card-wrap img{
+          width: 100%
+     }
+
      footer{
           display: flex;
           flex-direction: column;
