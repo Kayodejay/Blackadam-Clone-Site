@@ -364,7 +364,13 @@ footer .footer-grid nav ul li a{
           align-items: center;
      }
 
-     .section-container,
+     .section-container{
+         display: flex;
+         flex-direction: column;
+         padding: 18px 28px;
+     }
+
+    
      .icon-container,
      .cli-wrap,
      .cloud-container{
@@ -375,6 +381,7 @@ footer .footer-grid nav ul li a{
      .language-card-wrap{
           display: flex;
           flex-direction: column;
+          padding: 14px 28px;
      }
 
      .languages .language-card-wrap img{
