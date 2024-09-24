@@ -201,3 +201,24 @@ footer .footer-grid nav ul li a{
 .fa-twitter:hover{
     color: #047aed;
 }
+
+
+@media (max-width: 578px){
+     .header-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .blue-backgrnd,
+     .flex-wrap{
+          display: flex;
+          flex-direction: column;
+     }
+
+     .footer-grid{
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+     }
+}
