@@ -148,9 +148,9 @@ header div nav ul li a{
 .grid-display div{
     border-radius: 10px;
     min-height: 7em;
-    display: grid;
-    place-content: center;
-    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
     box-shadow: 1px 1px 8px gray;
 }
 
@@ -232,6 +232,7 @@ footer .footer-grid nav ul li a{
           display: flex;
           flex-direction: column;
           align-items: center;
+          padding: 12px 22px
      }
 
      .footer-grid{
