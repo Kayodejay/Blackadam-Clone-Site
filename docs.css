@@ -214,6 +214,7 @@ footer .footer-grid nav ul li a{
      .flex-wrap{
           display: flex;
           flex-direction: column;
+          padding: 12px 18px;
      }
 
      .footer-grid{
